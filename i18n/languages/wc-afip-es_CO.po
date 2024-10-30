@@ -1,0 +1,372 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AFIP para WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-08 23:52+0000\n"
+"PO-Revision-Date: 2024-07-22 23:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6\n"
+"X-Domain: wc-afip"
+
+#: Sdk/AfipSdk.php:70
+#, php-format
+msgid "%1$s - Data received from Afip: %2$s"
+msgstr "%1$s - Data recibida de Afip: %2$s"
+
+#: Sdk/AfipSdk.php:69
+#, php-format
+msgid "%1$s - Data sent to Afip: %2$s"
+msgstr "%1$s - Data enviada a Afip: %2$s"
+
+#: Orders/Metabox.php:259
+msgid "Address"
+msgstr "Dirección"
+
+#: Orders/OrdersList.php:56
+msgid "AFIP - Download invoices"
+msgstr "AFIP - Descargar facturas"
+
+#: Orders/OrdersList.php:57
+msgid "AFIP - Generate invoice"
+msgstr "AFIP - Generar factura"
+
+#: Orders/OrdersList.php:78
+msgid "AFIP CAE"
+msgstr "AFIP CAE"
+
+#: Orders/Metabox.php:76
+msgid "AFIP Credit Note"
+msgstr "Nota de crédito AFIP"
+
+#: Emails/CustomerCreditNoteMail.php:21
+msgid "AFIP Customer credit note"
+msgstr "Nota de crédito del cliente de AFIP"
+
+#: Emails/CustomerInvoiceMail.php:21
+msgid "AFIP Customer invoice"
+msgstr "Factura AFIP del cliente"
+
+#: Orders/Metabox.php:75
+msgid "AFIP Invoice"
+msgstr "Factura AFIP"
+
+#. Name of the plugin
+msgid "AFIP para WooCommerce"
+msgstr "AFIP para WooCommerce"
+
+#: Orders/OrderProcessor.php:110
+msgid "Cannot create an invoice for an order with no items"
+msgstr "No se puede crear una factura para una orden sin productos"
+
+#: Orders/Metabox.php:262
+msgid "Condition"
+msgstr "Condición"
+
+#: Orders/OrderProcessor.php:182
+msgid ""
+"Could not create order's credit note because no invoice number was found"
+msgstr ""
+"No se pudo crear la nota de credito de la orden porque no se encontró el "
+"número de factura"
+
+#: Sdk/AfipSdk.php:318
+msgid "Could not replicate the order totals"
+msgstr "No se pudo replicar el total de la orden"
+
+#: Orders/Metabox.php:305
+msgid "Create credit note"
+msgstr "Crear nota de crédito"
+
+#: Orders/Metabox.php:309
+msgid "Create invoice"
+msgstr "Crear factura"
+
+#: Orders/Metabox.php:112
+#, php-format
+msgid "Credit note CAE number: <strong>%s</strong>"
+msgstr "Número de CAE de Nota de crédito: <strong>%s</strong>"
+
+#. Author of the plugin
+msgid "CRPlugins"
+msgstr "CRPlugins"
+
+#: Orders/Metabox.php:286
+msgid "Document Number"
+msgstr "Número de documento"
+
+#: Orders/Metabox.php:274
+msgid "Document Type"
+msgstr "Tipo de documento"
+
+#: Orders/Metabox.php:132
+msgid "Download Credit Note"
+msgstr "Descargar nota de crédito"
+
+#: Orders/Metabox.php:131 Orders/Metabox.php:150
+msgid "Download invoice"
+msgstr "Descargar factura"
+
+#: Orders/Metabox.php:203
+msgid "Factura A"
+msgstr "Factura A"
+
+#: Orders/Metabox.php:204
+msgid "Factura B"
+msgstr "Factura B"
+
+#: Orders/Metabox.php:212
+msgid "Factura C"
+msgstr "Factura C"
+
+#: Sdk/AfipSdk.php:343
+msgid "File is empty"
+msgstr "El archivo está vacío"
+
+#: Sdk/AfipSdk.php:348
+msgid "File size is too big"
+msgstr "El tamaño del archivo es muy grande"
+
+#: Orders/OrderProcessor.php:71
+#| msgid "Fill your settings first before processing an order"
+msgid "Fill your settings first before creating an invoice"
+msgstr "Completa tus ajustes antes de crear una factura"
+
+#. Author URI of the plugin
+msgid "https://crplugins.com.ar"
+msgstr "https://crplugins.com.ar"
+
+#. Description of the plugin
+msgid "Integración entre AFIP y WooCommerce"
+msgstr "Integración entre AFIP y WooCommerce"
+
+#: Sdk/AfipSdk.php:368
+msgid "Invalid cert cuit"
+msgstr "Cuit del certificado inválido"
+
+#: Sdk/AfipSdk.php:373
+msgid "Invalid cert for production environment"
+msgstr "Certificado inválido para el entorno de producción"
+
+#: Sdk/AfipSdk.php:378
+msgid "Invalid cert for testing environment"
+msgstr "Certificado inválido para el entorno de pruebas"
+
+#: Sdk/AfipSdk.php:363
+msgid "Invalid cert subject"
+msgstr "Asunto del certificado inválido"
+
+#: Sdk/AfipSdk.php:353
+msgid "Invalid logo format"
+msgstr "Formato del logo inválido"
+
+#: Orders/Metabox.php:122
+#, php-format
+msgid "Invoice CAE number: <strong>%s</strong>"
+msgstr "Número de CAE de Factura: <strong>%s</strong>"
+
+#: Orders/OrderProcessor.php:168
+#, php-format
+msgid "Invoice for order %1$s created with AFIP succesfully, CAE: %2$s"
+msgstr "Factura de la orden %1$s creada con AFIP, CAE: %2$s"
+
+#: Orders/OrdersList.php:110
+#, php-format
+msgid "Invoice for order %s was already created with AFIP"
+msgstr "La factura para la orden %s ya estaba creada con AFIP"
+
+#: Orders/Metabox.php:289
+msgid "Invoice type"
+msgstr "Tipo de factura"
+
+#: Sdk/AfipSdk.php:323
+msgid "Invoices of type A must provide a tax type different than 3"
+msgstr ""
+"Facturas del tipo A deben realizarse con un tipo de impuesto diferente a 0%"
+
+#: Sdk/AfipSdk.php:328
+msgid "Invoices of type C must provide tax type 3"
+msgstr "Facturas de tipo C deben usar IVA 0"
+
+#: woocommerce-afip.php:223 Orders/OrdersList.php:52 Orders/Metabox.php:73
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: Orders/Metabox.php:74
+msgid "Mail sent"
+msgstr "Mail enviado"
+
+#: Sdk/AfipSdk.php:338
+msgid "Mismatch between afip data and local customer data"
+msgstr ""
+"No hay coincidencia entre los datos de AFIP y la información de la factura"
+
+#: Orders/Metabox.php:257
+msgid "Name"
+msgstr "Nombre"
+
+#: Sdk/AfipSdk.php:358
+msgid "No cert subject found"
+msgstr "No se encontró el asunto del certificado"
+
+#: Helper/WooCommerceTrait.php:445
+msgid "No products detected in cart"
+msgstr "No se detectaron productos en el carrito"
+
+#: Helper/WooCommerceTrait.php:490
+msgid "No products detected in order"
+msgstr "No se detectaron productos en la orden"
+
+#: Sdk/AfipSdk.php:74 Sdk/AfipSdk.php:75
+msgid "No response from AFIP server"
+msgstr "No hubo respuesta del servidor de AFIP"
+
+#: Emails/CustomerCreditNoteMail.php:22
+#| msgid ""
+#| "Notification to the customer that an AFIP credit note has been created "
+#| "(credit note attached)"
+msgid ""
+"Notification to the customer mentioning that an AFIP credit note has been "
+"created (credit note attached)"
+msgstr ""
+"Notificación para el cliente de que una nota de crédito de AFIP ha sido "
+"creada (nota de crédito adjunta)"
+
+#: Emails/CustomerInvoiceMail.php:22
+#| msgid ""
+#| "Notification to the customer that an AFIP invoice has been created "
+#| "(invoice attached)"
+msgid ""
+"Notification to the customer mentioning that an AFIP invoice has been "
+"created (invoice attached)"
+msgstr ""
+"Notificación para el cliente de que una factura de AFIP ha sido creada "
+"(factura adjunta)"
+
+#: Orders/OrderProcessor.php:207
+#, php-format
+#| msgid "Order %1$s credit note processed with AFIP succesfully, CAE: %2$s"
+msgid "Order %1$s credit note created with AFIP succesfully, CAE: %2$s"
+msgstr "Nota de crédito de la orden %1$s creada con AFIP, CAE: %2$s"
+
+#: Orders/OrderProcessor.php:206
+#, php-format
+#| msgid "Order credit note processed with AFIP, CAE: %s"
+msgid "Order credit note created with AFIP, CAE: %s"
+msgstr "Nota de crédito de orden creada con AFIP, CAE: %s"
+
+#: Orders/OrderProcessor.php:167
+#, php-format
+#| msgid "Order invoice processed with AFIP, CAE: %s"
+msgid "Order invoice created with AFIP, CAE: %s"
+msgstr "Factura de la orden creada con AFIP, CAE: %s"
+
+#: Documents/InvoiceProcessor.php:31
+msgid "order-%d"
+msgstr "orden-%d"
+
+#: Documents/CreditNoteProcessor.php:31
+msgid "order-credit-note-%d"
+msgstr "order-credit-note-%d"
+
+#: Rest/OrdersRest.php:200
+#, php-format
+msgid "pdf-invoices-%s"
+msgstr "pdf-invoices-%s"
+
+#: woocommerce-afip.php:79
+#, php-format
+msgid "Requires at least %1$s version %2$s or greater."
+msgstr "Requiere al menos %1$s versión %2$s o superior."
+
+#: Orders/Metabox.php:134
+#| msgid "Send credit note mail"
+msgid "Resend credit note mail"
+msgstr "Reenviar mail con nota de crédito"
+
+#: Orders/Metabox.php:133 Orders/Metabox.php:151
+#| msgid "Send invoice mail"
+msgid "Resend invoice mail"
+msgstr "Reenviar mail con factura"
+
+#: woocommerce-afip.php:244
+msgid "Settings"
+msgstr "Ajustes"
+
+#: Rest/SettingsRest.php:202
+msgid "Standard tax"
+msgstr "Impuesto estándar"
+
+#: Orders/Metabox.php:167
+#, php-format
+#| msgid ""
+#| "Thes order's invoice will be created when the order's status is <strong>"
+#| "%s</strong>"
+msgid ""
+"The invoice will be created when the order status is <strong>%s</strong>"
+msgstr ""
+"La factura será creada cuando el estado de la ordean sea <strong>%s</strong>"
+
+#: Orders/Metabox.php:142
+#, php-format
+#| msgid "The order has been processed, CAE number: <strong>%s</strong>"
+msgid "The order invoice has been created, CAE number: <strong>%s</strong>"
+msgstr ""
+"La factura de la orden ha sido creada, número de CAE: <strong>%s</strong>"
+
+#: Orders/OrderProcessor.php:191
+msgid ""
+"There was an error creating the credit note for the order with AFIP, please "
+"try again"
+msgstr ""
+"Hubo un error creando la nota de crédito para la orden con AFIP, por favor "
+"intentalo nuevamente"
+
+#: Orders/OrderProcessor.php:151
+msgid ""
+"There was an error creating the invoice for the order with AFIP, please try "
+"again"
+msgstr ""
+"Hubo un error creando la factura para la orden con AFIP, por favor intentalo "
+"nuevamente"
+
+#: woocommerce-afip.php:222 Orders/OrdersList.php:51 Orders/Metabox.php:72
+msgid "There was an error, please try again"
+msgstr "Hubo un error, por favor intentalo nuevamente"
+
+#: Orders/Metabox.php:77
+msgid ""
+"This action will create a credit note to null the invoice, do you want to "
+"continue?"
+msgstr ""
+"Esta acción creará una nota de crédito para anular la factura, estás seguro?"
+
+#: Orders/Metabox.php:255
+msgid "This data will be used for generating the invoice:"
+msgstr "La factura se generará con la siguiente información:"
+
+#: Orders/Metabox.php:158
+msgid "This order's invoice has not been created yet"
+msgstr "La factura de esta orden todavia no ha sido creada"
+
+#: Orders/Metabox.php:130
+msgid "View Credit Note"
+msgstr "Ver nota de crédito"
+
+#: Orders/Metabox.php:129 Orders/Metabox.php:149
+msgid "View invoice"
+msgstr "Ver factura"
+
+#: woocommerce-afip.php:89
+msgid "WooCommerce must be active before using"
+msgstr "WooCommerce debe estar activo antes de usar"
+
+#: Sdk/AfipSdk.php:333
+msgid "You must provide a CUIT number for invoices of type A"
+msgstr "Debes proveer un número de CUIT para facturas tipo A"
